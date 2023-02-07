@@ -1,0 +1,76 @@
+body {
+  background: hsl(257, 40%, 49%) url(../images/bg-desktop.svg) no-repeat center;
+  background-size: cover;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 1040px;
+  height: 100vh;
+}
+
+.container .logo {
+  margin: 40px;
+  width: 150px;
+}
+
+.container .card {
+  display: flex;
+  align-items: start;
+}
+.container .card .illustration {
+  width: 50%;
+  margin: 20px;
+}
+
+.container .card .card-info {
+  padding: 30px;
+  color: #fff;
+}
+
+.container .card .title {
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.container .card .text {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 20px;
+}
+
+.container .card .btn-register {
+  font-family: "Open Sans", sans-serif;
+  border: none;
+  padding: 10px 45px;
+  border-radius: 50px;
+  color: hsl(257, 40%, 49%);
+  box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.421);
+  cursor: pointer;
+}
+
+.container .card .btn-register:hover {
+  color: #fff;
+  background: hsl(300, 69%, 71%);
+}
+
+.container .social-icons {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  align-items: end;
+  padding: 0 20px;
+  color: white;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.container .social-icons li:hover {
+  color: hsl(300, 69%, 71%);
+}
